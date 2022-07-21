@@ -8,18 +8,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="titulo">
-            <h1>Digite seu peso e sua altura</h1>
-        </div>
-        <div class="meio">
-            <input type="number" id="altura" placeholder="Insira sua altura. (em m)">
-            <input type="number" id="peso" placeholder="Insira seu peso. (em kg)">
-            <input type="button" value="Calcular" onclick="calcularImc()">
-        </div>
-        <div class="result">
-            <p id="res">Calculando seu IMC.</p>
-            <p id="pos">Classificando seu IMC.</p>
+    <div class="containerDad">
+        <div class="containerChild">
+            <div class="titulo">
+                <h1>Digite seu peso e sua altura</h1>
+            </div>
+            <div class="meio">
+                <input type="number" id="altura" placeholder="Insira sua altura. (em m)">
+                <input type="number" id="peso" placeholder="Insira seu peso. (em kg)">
+                <input type="button" value="Calcular" onclick="calcularImc()">
+            </div>
+            <div class="result">
+                <p id="res">Calculando seu IMC.</p>
+                <p id="pos">Classificando seu IMC.</p>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
