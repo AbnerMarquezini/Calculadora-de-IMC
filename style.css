@@ -18,13 +18,13 @@ body {
     background-color: #008cff;
     border: solid 1px #000000;
     border-radius: 10px;
-    width: 50vw;
-    height: 40vw;
+    width: 25vw;
+    height: 20vw;
 }
 .inputSection {
     display: flex;
     flex-direction: column;
-    height: 15vw;
+    height: 5vw;
     justify-content: space-evenly;
 }
 .typeInput {
